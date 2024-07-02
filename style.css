@@ -1,0 +1,131 @@
+
+
+.header-container{
+height: 100%;
+background-image: url(Untitled.png);
+background-repeat:no-repeat;
+background-position:center top;
+
+}
+
+.nav {
+    color: var(--font-primary-font-color);
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    font-size: 35px;
+    align-items: bottom;
+padding-top: 20px;
+    }
+#icon-id{
+    width: 175px;
+    text-align: center;
+}
+
+.get{
+text-align: center;
+}
+
+
+.banner-image-container{
+ background-color:var(--font-primary-font-color);
+ width: fit-content;
+}
+.banner-title h1 {
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  letter-spacing: 5px;
+  margin: 30px 0px;
+  padding-left: 165px;
+}
+.banner-desc{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  margin: 30px 0px;
+  padding-left: 165px;
+}
+#banner-image{
+    height: 401px;
+}
+.banner-profile-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-primary-font-color);
+    border-bottom: 1px solid var(--font-primary-font-color);
+}
+.banner-profile-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 40px;
+  
+}
+.work-icon-container{
+    display: flex;
+    gap: 20px;
+    padding: 40px 0px;
+   
+
+}
+#icon{
+    height: 20px;
+    width: 20px;
+}
+.work-icon-container h1 {
+    border-bottom: 1px solid var(--font-primary-font-color);
+
+}
+.complete-prpject-cart h1{
+    font-size: 152px;
+}
+.complete-prpject-cart p{
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+.complete-project-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .container{
+        padding: 0px 0px;
+        background-color:var(--background-color);
+    }
+    .nav{
+        font-size: 16px;
+    }
+    .complete-project-container{
+        flex-direction: column;
+    }
+    .banner-title h1 {
+        font-size: 25px;
+      padding-right: 165px;
+    }
+
+    .banner-profile-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-image-container{
+        width: 100%;
+    }
+    #banner-image{
+        width: 100%;
+    }
+    .banner-desc{
+        padding:0px;
+    }
+    .banner-title h1 {
+        padding: 0px;
+    }
+}
+
